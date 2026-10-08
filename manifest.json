@@ -1,0 +1,29 @@
+{
+  "manifest_version": "1",
+  "id": "explainers-plus",
+  "name": "Explainers Plus",
+  "authors": [
+    {
+      "name": "John Doe",
+      "url": "https://github.com/centzlostres"
+    }
+  ],
+  "project_urls": {
+    "Homepage": "https://github.com/centzlostres/explainers-plus",
+    "Issues": "https://github.com/centzlostres/explainers-plus/issues"
+  },
+  "description": "Global and local explanations for tabular classifiers.",
+  "version": "1.0.0",
+  "min_app_version": "0.10.0",
+  "components": [
+    {
+      "class": "explainers_plus:PermutationImportancePlus",
+      "type": "GlobalExplainer"
+    },
+    {
+      "class": "explainers_plus:KernelShapPlus",
+      "type": "LocalExplainer"
+    }
+  ],
+  "dependencies": []
+}
